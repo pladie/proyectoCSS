@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Work+Sans:wght@100;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    height: 100vh;
+}
+
+.header {
+    background-color: rgb(27, 26, 26);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+}
+
+.headerleft {
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerleft img {
+    width: 100px;
+    object-fit: cover;
+}
+
+
+.headerleft h2 {
+    color: whitesmoke;
+    font-weight: 400;
+}
+
+.header nav a {
+    margin-right: 70px;
+    text-decoration: none;
+    font-weight: 600;
+    color: darkgray;
+}
+
+.header nav .conf {
+    color: #e0e4e4;
+}
+
+.header nav .comp {
+    color: rgb(5, 131, 5);
+}
+
+.conf {
+    background: linear-gradient(to right, #0000009c, #0000009c), url("../assets/img/ba1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5rem;
+    object-fit: cover
+}
+
+.conf_hijo {
+    color: white;
+    font-weight: 300;
+    width: 45%;
+    height: 35%;
+    text-align: right;
+    flex-direction: column;
+    justify-content: space-between;
+    display: inline-block;
+    line-height: 25px;
+}
+
+.conf_hijo a {
+    margin-left: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btnOrador {
+    margin-top: 1%;
+    padding: 1%;
+    color: white;
+    border-radius: 5px;
+    border: solid 1px;
+    background-color: transparent;
+}
+
+.btnTicket {
+    background-color: rgb(5, 131, 5);
+    margin-top: 1%;
+    padding: 1%;
+    color: white;
+    border-radius: 5px;
+    border-color: rgb(5, 131, 5);
+}
+
+.oradores {
+    margin-top: 60px;
+}
+
+.oradores h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+.conoce {
+    margin-top: 1000px;
+    font-weight: 600;
+    font-size: 10px
+}
+
+.padreCards {
+    text-align: left;
+    justify-content: space-between;
+    width: 80%;
+    height: 110vh;
+    margin: 0 auto;
+    display: flex;
+}
+
+.card {
+    background-color: white;
+    width: 30%;
+    height: 80%;
+    border: 1px solid rgb(219, 217, 217);
+    border-radius: 5px;
+}
+
+.card img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.cardBody {
+    margin: 15px;
+}
+
+.cardBody h5 {
+    display: inline-block;
+}
+
+.java {
+    background-color: rgb(247, 195, 23);
+    border-radius: 3px;
+    text-align: center;
+    padding: 1% 2%;
+}
+
+.react {
+    background-color: rgba(37, 130, 158, 0.836);
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    padding: 1% 2%;
+}
+
+.negocio {
+    background-color: #6a6d6d;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    padding: 1% 2%;
+}
+
+.start {
+    background-color: hsl(0, 74%, 54%);
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    padding: 1% 2%;
+}
+
+.padrefecha {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fecha img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fecha {
+    background-color: #2f3131;
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+
+}
+
+.fechatext {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-top: 15px;
+    line-height: 28px;
+
+}
+
+.fechatext button {
+    background-color: transparent;
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-color: #c8cece;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.conviertete {
+    text-align: center;
+    margin-top: 15px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.convierte {
+    font-weight: 200;
+    font-size: 10px;
+}
+
+.conviertete h2 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.conviertete h3 {
+    font-weight: 200;
+    font-size: 10px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.form {
+    width: 200px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+.recuerda {
+    text-align: center;
+    margin: 10px;
+    font-weight: 300;
+    font-size: 10px;
+}
+
+.enviar {
+    background-color: greenyellow;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    padding: 5px 20px;
+    margin-right: 20px;
+}
+
+.limpiar {
+    background-color: orangered;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    padding: 5px 20px;
+    margin-left: 20px;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(4, 46, 46);
+    color: white;
+    height: 10vh;
+    /* width: 80%; */
+    align-items: center;
+    justify-content: space-between;
+    word-spacing: 20px;
+}
+
+.pie a {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.pie img {
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    width: 3%;
+}
+
+@media screen and (max-width: 767px) {
+
+    .header {
+        background-color: rgb(177, 223, 109);
+        height: initial;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .confe {
+        justify-content: center;
+
+    }
+
+    .padreCards {
+        flex-direction: column;
+    }
+}
